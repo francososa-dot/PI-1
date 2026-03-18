@@ -4,6 +4,7 @@ text-align:center;
 background:#f4f4f4;
 margin:0;
 padding:20px;
+box-sizing: border-box;
 }
 
 h1{
@@ -21,14 +22,16 @@ cursor: pointer;
 border-radius: 15px;
 color: #f4f4f4;
 background-color: #333;
+border: none;
 }
 
 #paletteContainer{
 display:grid;
-grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+grid-template-columns:repeat(auto-fit, minmax(140px,1fr));
 gap:10px;
 max-width:1000px;
 margin:auto;
+padding: 0 10px;
 }
 
 .colorBox{
@@ -40,4 +43,79 @@ color:white;
 font-weight:bold;
 padding:10px;
 border-radius:6px;
+font-size: 14px;
+word-break: break-all;
 }
+
+select{
+padding:8px 12px;
+font-size:15px;
+border-radius:8px;
+border:1px solid #ccc;
+background:#fff;
+cursor:pointer;
+}
+
+@media(max-width: 768px){
+    h1{
+     font-size: 1.5rem;
+     margin-bottom: 15px;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#paletteContainer{
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap: 8px;
+}
+
+.colorBox{
+    height: 120px;
+    font-size: 13px;
+  }
+}
+
+@media(max-wiidth: 480px){
+    body{
+        padding: 12px;
+}
+
+h1{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+select,button{
+    width: 100%;
+    max-width: 280px;
+    font-size: 14px;
+}
+
+#paletteContainer{
+    grid-template-columns: repeat(2.1fr);
+    gap: 6px;
+    padding: 0 5px;
+}
+
+.colorBox{
+    height: 100px;
+    font-size: 12px;
+    border-radius: 4px;
+ }
+}
+
+@media(max-width:320px){
+    #paletteContainer{
+    grid-template-columns: 1fr;
+}
+
+.colorBox{
+    height: 80px;
+ }
+}
+

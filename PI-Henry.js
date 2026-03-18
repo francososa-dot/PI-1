@@ -1,4 +1,4 @@
-//selectoreas de elementos del DOM
+//selectores de elementos del DOM
 const paletteContainer = document.getElementById("paletteContainer")
 const generateBtn = document.getElementById("generateBtn")
 const paletteSize = document.getElementById("paletteSize")
