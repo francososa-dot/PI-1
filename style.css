@@ -15,6 +15,12 @@ margin-bottom:20px;
 margin-bottom:20px;
 }
 
+.control-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 button{
 padding: 10px 20px;
 font-size:15px;
@@ -32,6 +38,10 @@ gap:10px;
 max-width:1000px;
 margin:auto;
 padding: 0 10px;
+}
+
+#generateBtn{
+    margin: 20px 0;
 }
 
 .colorBox{
@@ -80,7 +90,7 @@ cursor:pointer;
   }
 }
 
-@media(max-wiidth: 480px){
+@media(max-width: 480px){
     body{
         padding: 12px;
 }

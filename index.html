@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Generador de Paletas</title>
-<link rel="stylesheet" href="PI-Henry.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,8 +12,15 @@
 <h1>🎨 Generador de Paletas</h1>
 
 <div class="controls">
-<label>Tamaño de paleta:</label>
+    <label class="paletteSize">Formato de color:</label>
+<select id="colorFormat">
+    <option value="hex">HEX</option>
+    <option value="hsl">HSL</option>
+</select>
+</div>
 
+<div class="control-group">
+<label>Tamaño de paleta:</label>
 <select id="paletteSize">
 <option value="6">6 colores</option>
 <option value="8">8 colores</option>
@@ -25,7 +32,7 @@
 
 <div id="paletteContainer"></div>
 
-<script src="PI-Henry.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
