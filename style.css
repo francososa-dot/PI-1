@@ -5,6 +5,7 @@ background:#f4f4f4;
 margin:0;
 padding:20px;
 box-sizing: border-box;
+padding-bottom: 60px;
 }
 
 h1{
@@ -85,10 +86,19 @@ footer{
     font-size: 14px;
     color: #fff;
     background-color: #333;
+    border-top: #333;
 }
 
 .github{
     color: #f6ff5f;
+}
+
+
+@media (max-width: 600px){
+    footer{
+        font-size: 12px;
+        padding: 10px;
+    }
 }
 
 @media(max-width: 768px){
