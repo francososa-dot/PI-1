@@ -29,6 +29,7 @@ function randomHSL(){
 //elegir color del texto segun el fondo
 function getTextColor(color){
     if(color.startsWith("#")){
+        
         const r = parseInt(color.substring(1,3), 16)
         const g = parseInt(color.substring(3,5), 16)
         const b = parseInt(color.substring(5,7), 16)
@@ -38,8 +39,10 @@ function getTextColor(color){
         return brightness > 150 ? "#000" : "#fff"
     }
 
-    if(color.startsWith("hsl")){
+    if(color.startsWith("hsl")) 
+        {
         const l = parseInt(color.split(",")[2].replace(")", ""))
+
         return l > 60 ? "#000" : "#fff"
     }
 

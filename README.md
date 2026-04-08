@@ -102,7 +102,3 @@ A continuación se incluyen las imágenes relacionadas que están en la carpeta 
 ![Imagen 3](assets/images/3.jpg)
 
 ![Imagen 4](assets/images/4.jpg)
-
-![Imagen 5](assets/images/5.jpg)
-
-![Imagen 6](assets/images/6.jpg)
