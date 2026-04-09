@@ -25,6 +25,12 @@ Pagina web que genera una paleta de colores aleatoria a base de que formato de c
 - CSS3: para estilos y responsive 
 - JavaScript: para logica de generador de colores y manipulacion del DOM
 
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+</div>
+
 ---
 
 ## Desiciones tecnicas tomadas para el proyecto 
@@ -83,6 +89,12 @@ proyecto/
 
 ---
 
+## Link del Drive
+
+- En esta carpeta se encuentra la documentacion del proyecto y las imagenes relacionadas al uso de la pagina y de la ia.
+
+- Link: https://drive.google.com/drive/folders/1M2KaIi1cmSoxJuS3_wPF2aEJa0INAWjD?usp=sharing
+
 ### Autor de proyecto 
 
 - Proyecto realizado y publicado por Franco Sosa para el proyecto integrado del modulo 1 SoyHenry (PI-1)
@@ -101,4 +113,4 @@ A continuación se incluyen las imágenes relacionadas que están en la carpeta 
 
 ![Imagen 3](assets/images/3.jpg)
 
-![Imagen 4](assets/images/4.jpg)
+![Imagen 4](assets/images/4.jpg
