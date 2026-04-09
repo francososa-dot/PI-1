@@ -113,4 +113,4 @@ A continuación se incluyen las imágenes relacionadas que están en la carpeta 
 
 ![Imagen 3](assets/images/3.jpg)
 
-![Imagen 4](assets/images/4.jpg
+![Imagen 4](assets/images/4.jpg)
